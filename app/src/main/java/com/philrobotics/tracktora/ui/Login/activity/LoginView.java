@@ -1,4 +1,4 @@
-package com.philrobotics.tracktora.ui.Login;
+package com.philrobotics.tracktora.ui.Login.activity;
 
 import com.hannesdorfmann.mosby.mvp.MvpView;
 
