@@ -16,6 +16,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    dataBinding {
+        enabled true
+    }
 }
 
 configurations.all {
@@ -42,4 +46,8 @@ dependencies {
 
     //ok http
     implementation 'com.squareup.okhttp3:okhttp:3.12.0'
+
+    // material design and pallette
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support:palette-v7:26.1.0'
 }

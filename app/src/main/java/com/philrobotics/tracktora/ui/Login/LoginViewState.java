@@ -1,4 +1,4 @@
 package com.philrobotics.tracktora.ui.Login;
 
-public  interface LoginViewState  {
+public  class LoginViewState  {
 }
